@@ -1,0 +1,11 @@
+.maindiv {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: black;
+}
+.div1 {
+    background-color: rgba(35,109,206,0.1);
+    padding: 25px;
+}

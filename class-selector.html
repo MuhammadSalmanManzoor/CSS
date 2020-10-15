@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Universal selector</title>
+    <style>
+        .Btc{
+            color: royalblue;
+        }
+        .Apm, .Mso{
+            color: slateblue;
+        }
+        p.Wed{
+            color: teal;
+        }
+        th{
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <h1>univesal selector</h1>
+    <p>Saylni offer these course</p>
+        <div>
+            <p class="Wed">web development</p>
+        </div>
+        <div>
+            <p class="Apm">application management</p>
+        </div>
+        <div>
+            <p class="Btc">bootcamp</p>
+        </div>
+        <div>
+            <p class="Mso">ms-office</p>
+        </div>
+    <p>below the list of table</p>
+    <table border="4" width="800">
+        <tr>
+            <th>s. no</th>
+            <th>Name</th>
+            <th>roll no</th>
+            <th>course</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>001</td>
+            <td>
+                <ol>
+                    <li class="Wed">web development</li>
+                    <li class="Apm">application management</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ahmad</td>
+            <td>002</td>
+            <td>
+                <ol>
+                    <li class="Mso">Ms-office</li>
+                    <li class="Btc">botcamp</li>
+                    <li class="Apm">application management</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Usman</td>
+            <td>003</td>
+            <td>
+                <ol>
+                    <li class="Btc"><p>bootcamp</p></li>
+                    <li class="Wed"><p>Web development</p></li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
